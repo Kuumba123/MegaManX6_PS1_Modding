@@ -1,0 +1,7 @@
+mega = 0x80098760;
+
+AnimeAdvance = 0x80018e3c;
+
+DisplayObject = 0x8002e14c;
+
+GetRNG = 0x8002e8d0;

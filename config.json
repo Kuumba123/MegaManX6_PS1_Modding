@@ -1,0 +1,39 @@
+{
+    "compiler": {
+        "function_sections": 1,
+        "reorder_functions": 0,
+        "optimization": 4,
+        "debug": 1,
+		"mininoob": 0,
+        "psyq": 1,
+        "8mb": 0
+    },
+    "versions": [
+      {
+        "american": {
+          "name": "MMX6.bin",
+          "symbols": [
+            "common.txt",
+            "gpu.txt",
+            "object.txt",
+            "layer.txt",
+            "misc.txt"
+          ],
+          "build_id": 1395
+        }
+      },
+      {
+        "japanese": {
+          "name": "RMX6.bin",
+          "symbols": [
+            "common_jp.txt",
+            "gpu_jp.txt",
+            "object_jp.txt",
+            "layer_jp.txt",
+            "misc_jp.txt"
+          ],
+          "build_id": 86959
+        }
+      }
+    ]
+}

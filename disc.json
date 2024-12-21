@@ -1,0 +1,78 @@
+{
+  "american": [
+    {
+      "SLUS_013.95": [
+        {
+          "name": "header",
+          "address": "0x8000B070",
+          "offset": "0x0"
+        },
+        {
+          "name": "exe",
+          "address": "0x80010000",
+          "offset": "0x800"
+        }
+      ],
+      "ROCK_X6.BIN": [
+        {
+          "name": "bin",
+          "address": "0x80105000",
+          "offset": "0"
+        },
+        {
+          "name": "ST0C_1_OVL",
+          "address": "0x800E9860",
+          "offset": "0xB0800"
+        },
+        {
+          "name": "ST0E_OVL",
+          "address": "0x800E9860",
+          "offset": "0xC8800"
+        },
+        {
+          "name": "ST0F_OVL",
+          "address": "0x800E9860",
+          "offset": "0xD1800"
+        }
+      ]
+    }
+  ],
+  "japanese": [
+    {
+      "SLPM_869.59": [
+        {
+          "name": "header",
+          "address": "0x8000B070",
+          "offset": "0x0"
+        },
+        {
+          "name": "exe",
+          "address": "0x80010000",
+          "offset": "0x800"
+        }
+      ],
+      "ROCK_X6.BIN": [
+        {
+          "name": "bin",
+          "address": "0x80105000",
+          "offset": "0"
+        },
+        {
+          "name": "ST0C_1_OVL",
+          "address": "0x800EAE90",
+          "offset": "0xB0800"
+        },
+        {
+          "name": "ST0E_OVL",
+          "address": "0x800EAE90",
+          "offset": "0xC8800"
+        },
+        {
+          "name": "ST0F_OVL",
+          "address": "0x800EAE90",
+          "offset": "0xD1800"
+        }
+      ]
+    }
+  ]
+}

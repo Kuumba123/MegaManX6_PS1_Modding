@@ -1,0 +1,52 @@
+ArcSeek = 0x80014f70;
+ArcBinSeek = 0x8001642c;
+BinSeek = 0x80016858;
+
+CdControl = 0x800648d4;
+CdPosToInt = 0x800617a4;
+CdRead = 0x80065504;
+CdReadSync = 0x800656a0;
+CdSearchFile = 0x80061824;
+
+ClearAll = 0x8002b838;
+
+CopyClut = 0x8002b3d4;
+
+DrawLoad = 0x80015ec0;
+DrawMMX6 = 0x80017e98;
+DrawMain = 0x80025fb0;
+EndSong = 0x800186a8;
+
+FadeIn = 0x800139a0;
+FadeOut = 0x800139f4;
+FileCollect = 0x80016178;
+FileCollect2 = 0x8001494c;
+
+PlaySound = 0x80016c48;
+PlaySong = 0x80018060;
+
+
+
+strcpy = 0x80069d74;
+memcpy = 0x80069d84;
+memset = 0x80069d94;
+
+printf = 0x80069da4;
+
+NewThread = 0x80013300;
+ThreadSleep = 0x80013360;
+DeleteThread = 0x800133a0;
+DeleteThread2 = 0x800133f4;
+
+buttonsHeld = 0x800c456c;
+buttonsHeldPast = 0x800c456e;
+buttonsPressed = 0x800c4570;
+
+buttonsHeld2 = 0x800c4758;
+buttonsHeldPast2 = 0x800c475a;
+buttonsPressed2 = 0x800c475c;
+
+fadeDirection = 0x80097424;
+frameCount = 0x80097420;
+freeArcP = 0x800b91b8;
+game = 0x800cced0;
