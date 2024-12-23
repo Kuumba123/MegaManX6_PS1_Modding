@@ -1,5 +1,6 @@
 LoadLevel = 0x80013de8;
-
+GetRepoidStatus = 0x8004ff4c;
+SetReploidStatus = 0x8004ff00;
 SetupLayerSettings = 0x80025f34;
 SetupPriority = 0x800280f4;
 SetupSpawn = 0x80029b8c;
