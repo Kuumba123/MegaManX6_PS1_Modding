@@ -30,33 +30,33 @@ typedef struct {
 }Enemy;
 
 typedef struct {
-    uint8_t flags; /* alive */
-    uint8_t id;
-    uint8_t stageVar;
+    int8_t flags; /* alive */
+    int8_t id;
+    int8_t stageVar;
     bool display;
-    uint8_t act;
-    uint8_t act2;
-    uint8_t act3;
-    uint8_t act4;
+    int8_t act;
+    int8_t act2;
+    int8_t act3;
+    int8_t act4;
     int x;
     int y;
-    Enemy * enemyP; /* for enemy spawner & other things */
-    uint8_t collideLayer; /* witch BG Layer for collision */
-    uint8_t flip;
-    uint8_t priority;
-    uint8_t anime;
+    struct Enemy * enemyP; /* for enemy spawner & other things */
+    int8_t layer; /* witch BG Layer for interactoin */
+    int8_t flip;
+    int8_t priority; /* upper 4 bits is Main Priority */
+    int8_t anime;
     int pastX;
     int pastY;
     int speedX;
     int speedY;
     int accelX;
     int accelY;
-    AnimeFrame * animeTableP;
-    uint8_t * frameP;
+    struct AnimeFrame * animeTableP;
+    struct AnimeFrame * frameP;
     uint8_t * texP;
-    uint8_t * sprtDataP;
-    uint16_t texCord;
-    uint16_t clutCord;
+    int8_t * sprtDataP;
+    int16_t texCord;
+    int16_t clutCord;
     AnimeFrame animeInfo;
     uint8_t newAnimeF;
     undefined field29_0x49;
@@ -66,8 +66,8 @@ typedef struct {
     undefined field33_0x4d;
     undefined field34_0x4e;
     undefined field35_0x4f;
-    HitBox * contactP; /* hitbox pointer for ContactO */
-    HitBox * contactP2; /* with other things that damage it */
+    struct hitboxS * contactP; /* hitbox pointer for ContactO */
+    struct hitboxS * contactP2; /* with other things that damage it */
     int * damageTableP; /* damage table Pointer (when hit) */
     uint8_t hp;
     uint8_t hp_old;
@@ -82,8 +82,8 @@ typedef struct {
     undefined field49_0x66;
     undefined field50_0x67;
     HitBox * collideP; /* for collison & hitbox */
-    uint16_t innerX;
-    uint16_t innerY;
+    int16_t innerX;
+    int16_t innerY;
     uint8_t collideF; /* flags for BTLR */
     undefined field55_0x71;
     undefined field56_0x72;
@@ -98,33 +98,36 @@ typedef struct {
     undefined field65_0x7b;
     undefined field66_0x7c;
     undefined field67_0x7d;
-    undefined field68_0x7e; //Start of Free Vars (does not include Weapons)
+    undefined field68_0x7e;
     undefined field69_0x7f;
     undefined field70_0x80;
-    undefined field71_0x84;
-    undefined field72_0x85;
-    undefined field73_0x86;
-    undefined field74_0x87;
-    undefined field75_0x88;
-    undefined field76_0x89;
-    undefined field77_0x8A;
-    undefined field78_0x8b;
-    undefined field79_0x8c;
-    undefined field80_0x8d;
-    undefined field81_0x8e;
-    undefined field82_0x8f;
-    undefined field83_0x90;
-    undefined field84_0x91;
-    undefined field85_0x92;
-    undefined field86_0x93;
-    undefined field87_0x94;
-    undefined field88_0x95;
-    undefined field89_0x96;
-    undefined field90_0x97;
-    undefined field91_0x98;
-    undefined field92_0x99;
-    undefined field93_0x9a;
-    undefined field94_0x9b;
+    undefined field71_0x81;
+    undefined field72_0x82;
+    undefined field73_0x83;
+    undefined field74_0x84;
+    undefined field75_0x85;
+    undefined field76_0x86;
+    undefined field77_0x87;
+    undefined field78_0x88;
+    undefined field79_0x89;
+    undefined field80_0x8a;
+    undefined field81_0x8b;
+    undefined field82_0x8c;
+    undefined field83_0x8d;
+    undefined field84_0x8e;
+    undefined field85_0x8f;
+    undefined field86_0x90;
+    undefined field87_0x91;
+    undefined field88_0x92;
+    undefined field89_0x93;
+    undefined field90_0x94;
+    undefined field91_0x95;
+    undefined field92_0x96;
+    undefined field93_0x97;
+    undefined field94_0x98;
+    undefined field95_0x99;
+    undefined field96_0x9a;
+    undefined field97_0x9b;
 }Object;
 
 typedef struct {
