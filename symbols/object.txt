@@ -5,6 +5,7 @@ AnimeAdvance = 0x80017248;
 DisplayObject = 0x8002cb50;
 
 GetRNG = 0x8002d2d4;
+GetMiscObject = 0x8002c530;
 
 SetAnime = 0x800179a4;
 SetAnimeFrame = 0x800179d0;
