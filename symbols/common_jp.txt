@@ -25,7 +25,7 @@ FileCollect2 = 0x80015d84;
 PlaySound = 0x80018080;
 PlaySong = 0x80019498;
 
-
+SetupScreen = 0x80013cc8;
 
 strcpy = 0x8006b388;
 memcpy = 0x8006b3a8;
