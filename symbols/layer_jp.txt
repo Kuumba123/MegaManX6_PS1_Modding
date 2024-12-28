@@ -7,4 +7,4 @@ bgLayers = 0x800988b8;
 
 layoutWidth = 0x800cd338;
 layoutHeight = 0x800cd339;
-layoutSize = 0x8008ec10;
+layoutSize = 0x800902d0;
