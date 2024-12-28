@@ -5,6 +5,6 @@ TransferTiles2 = 0x8002919c;
 
 bgLayers = 0x800988b8;
 
-layoutWidth = 0x800cd338;
-layoutHeight = 0x800cd339;
+layoutWidth = 0x800ce9f8;
+layoutHeight = 0x800ce9f9;
 layoutSize = 0x800902d0;
