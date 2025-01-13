@@ -34,6 +34,7 @@ memset = 0x80069d94;
 printf = 0x80069da4;
 
 NewThread = 0x80013300;
+NewThread2 = 0x8001344c;
 ThreadSleep = 0x80013360;
 DeleteThread = 0x800133a0;
 DeleteThread2 = 0x800133f4;
