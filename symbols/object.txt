@@ -2,6 +2,8 @@ mega = 0x800970a0;
 
 AnimeAdvance = 0x80017248;
 
+DeleteObject3 = 0x8002c9b0;
+
 DisplayObject = 0x8002cb50;
 
 GetRNG = 0x8002d2d4;
