@@ -1001,7 +1001,7 @@ void FileCollect();
 void FileCollect2();
 
 void PlaySound(int slot,int id,void *objP);
-void TurnOffSounds(uint32_t flag, uint32_t file);
+void TurnOffSound(uint32_t flag, uint32_t file);
 void PlaySong(uint8_t id,uint8_t vol);
 
 char * strcpy(void * dest,void * src);
