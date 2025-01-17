@@ -1,6 +1,8 @@
 LoadLevel = 0x80013de8;
 GetReploidStatus = 0x8004ff4c;
+HasSeenText = 0x800533f4;
 SetReploidStatus = 0x8004ff00;
+SetSeenText = 0x80053440;
 SetupLayerSettings = 0x80025f34;
 SetupPriority = 0x800280f4;
 SetupSpawn = 0x80029b8c;
