@@ -33,9 +33,9 @@ DRAWENV * SetDefDrawEnv(DRAWENV *env,int x,int y,int w,int h);
 
 extern uint8_t buffer;
 typedef struct{
-    DISPENV disp;
-    DRAWENV draw;
-    ulong ot[16];
+    DISPENV dispenv;
+    DRAWENV drawenv;
+    ulong ot[32];
 }DB;
 extern DB * drawP;
 extern DB drawSettings[2];
